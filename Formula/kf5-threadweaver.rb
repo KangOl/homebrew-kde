@@ -4,7 +4,10 @@ class Kf5Threadweaver < Formula
   url "https://download.kde.org/stable/frameworks/5.70/threadweaver-5.70.0.tar.xz"
   sha256 "090d477fb26a2148bf915d33edf08a44de49785be466495e088e8e033c073878"
 
+  revision 1
+
   head "git://anongit.kde.org/threadweaver.git"
+
   depends_on "cmake" => :build
   depends_on "doxygen" => :build
   depends_on "graphviz" => :build
